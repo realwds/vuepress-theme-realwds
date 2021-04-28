@@ -1,0 +1,34 @@
+{
+  "name": "vuepress-theme-realwds",
+  "version": "1.0.0",
+  "description": "A unique design theme for VuePress.",
+  "main": "index.js",
+  "keywords": [
+    "theme",
+    "vuepress",
+    "vuepress-theme",
+    "realwds",
+    "vuepress-theme-realwds"
+  ],
+  "author": "Alejandro",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realwds/vuepress-theme-realwds.git"
+  },
+  "bugs": {
+    "url": "https://github.com/realwds/vuepress-theme-realwds/issues"
+  },
+  "homepage": "https://realwds.github.io",
+  "license": "MIT",
+  "dependencies": {
+    "@vuepress/plugin-active-header-links": "1.8.0",
+    "@vuepress/plugin-nprogress": "1.8.0",
+    "@vuepress/plugin-search": "1.8.0",
+    "docsearch.js": "^2.5.2",
+    "lodash": "^4.17.15",
+    "stylus": "^0.54.8",
+    "stylus-loader": "^3.0.2",
+    "vuepress-plugin-container": "^2.0.2",
+    "vuepress-plugin-smooth-scroll": "^0.0.3"
+  }
+}
