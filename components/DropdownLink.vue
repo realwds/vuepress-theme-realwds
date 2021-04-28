@@ -137,6 +137,7 @@ export default {
   cursor pointer
   .dropdown-title
     display block
+    outline none
     font-size 0.9rem
     font-family inherit
     cursor inherit
@@ -145,7 +146,7 @@ export default {
     background transparent
     border none
     font-weight 500
-    color $textColor
+    color #f3f3f3
     &:hover
       border-color transparent
     .arrow
@@ -204,9 +205,11 @@ export default {
     &.open .dropdown-title
       margin-bottom 0.5rem
     .dropdown-title
-      display: none
+      display none
     .mobile-dropdown-title
-      display: block
+      display block
+      color $textColor
+      outline none
     .nav-dropdown
       transition height .1s ease-out
       overflow hidden
@@ -241,9 +244,9 @@ export default {
       position absolute
       top 100%
       right 0
-      background-color #fff
+      background-color #1a1a1a
       padding 0.6rem 0
-      border 1px solid #ddd
+      border 1px solid hsla(0,0%,100%,.1)
       border-bottom-color #ccc
       text-align left
       border-radius 0.25rem

@@ -1,11 +1,25 @@
 # vuepress-theme-realwds
 
-> vuepress 官方默认主题更改
+[![NPM version](https://badgen.net/npm/v/vuepress-theme-realwds)](https://npmjs.com/package/vuepress-theme-realwds) [![NPM downloads](https://badgen.net/npm/dm/vuepress-theme-realwds)](https://npmjs.com/package/vuepress-theme-realwds)
+[![NPM LICENSE](https://badgen.net/npm/license/vuepress-theme-realwds)](https://github.com/realwds/vuepress-theme-realwds/blob/master/LICENSE)
 
-## Plugins
 
-The default theme has the following plugin built in:
+## Install
 
-- [@vuepress/plugin-active-header-links](https://github.com/vuejs/vuepress/tree/master/packages/@vuepress/plugin-active-header-links)
-- [@vuepress/plugin-google-analytics](https://github.com/vuejs/vuepress/tree/master/packages/%40vuepress/plugin-google-analytics)
-- [@vuepress/plugin-search](https://github.com/vuejs/vuepress/tree/master/packages/%40vuepress/plugin-search)
+``` sh
+yarn add vuepress-theme-realwds -D
+# OR npm install vuepress-theme-realwds -D
+```
+
+## Usage
+
+``` js
+// .vuepress/config.js
+module.exports = {
+  theme: 'vuepress-theme-realwds'
+}
+```
+
+## LICENSE
+
+vuepress-theme-realwds © Alejandro, Released under the MIT License.

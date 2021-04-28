@@ -27,7 +27,9 @@ body
   left 0
   right 0
   height $navbarHeight
-  background-color #fff
+  background-color #1a1a1a
+  color #f3f3f3
+  border-bottom-color hsla(0,0%,100%,.1)
   box-sizing border-box
   border-bottom 1px solid $borderColor
 
@@ -81,6 +83,8 @@ a
   font-weight 500
   color $accentColor
   text-decoration none
+  &:focus,&:active 
+    outline: none
 
 p a code
   font-weight 400

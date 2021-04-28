@@ -109,12 +109,12 @@ $navbar-horizontal-padding = 1.5rem
   .site-name
     font-size 1.3rem
     font-weight 600
-    color $textColor
+    color #f3f3f3
     position relative
   .links
     padding-left 1.5rem
     box-sizing border-box
-    background-color white
+    background-color #1a1a1a
     white-space nowrap
     font-size 0.9rem
     position absolute
@@ -122,8 +122,15 @@ $navbar-horizontal-padding = 1.5rem
     top $navbar-vertical-padding
     display flex
     .search-box
-      flex: 0 0 auto
-      vertical-align top
+      flex 0 0 auto
+      vertical-align top   
+      input 
+        color #f3f3f3
+        background-color #2a2a2a
+        border-color hsla(0,0%,100%,.1)
+      .suggestions
+        background-color #2a2a2a
+        border-color #404040
 
 @media (max-width: $MQMobile)
   .navbar
