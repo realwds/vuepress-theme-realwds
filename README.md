@@ -1,7 +1,8 @@
 # vuepress-theme-realwds
 
-[![NPM version](https://badgen.net/npm/v/vuepress-theme-realwds)](https://npmjs.com/package/vuepress-theme-realwds) [![NPM downloads](https://badgen.net/npm/dm/vuepress-theme-realwds)](https://npmjs.com/package/vuepress-theme-realwds)
-[![NPM LICENSE](https://badgen.net/npm/license/vuepress-theme-realwds)](https://github.com/realwds/vuepress-theme-realwds/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/v/vuepress-theme-realwds.svg)](https://www.npmjs.com/package/vuepress-theme-realwds)
+[![LICENSE](https://img.shields.io/npm/l/vuepress-theme-realwds.svg)](https://github.com/realwds/vuepress-theme-realwds/blob/master/LICENSE)
+[![Dependency Status](https://david-dm.org/realwds/vuepress-theme-realwds.svg?theme=shields.io)](https://david-dm.org/realwds/vuepress-theme-realwds)
 
 
 ## Install
