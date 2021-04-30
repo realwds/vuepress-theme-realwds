@@ -29,9 +29,7 @@ body
   height $navbarHeight
   background-color #1a1a1a
   color #f3f3f3
-  border-bottom-color hsla(0,0%,100%,.1)
   box-sizing border-box
-  border-bottom 1px solid $borderColor
 
 .sidebar-mask
   position fixed
@@ -204,3 +202,10 @@ th, td
       padding-left 0
 
 @require 'mobile.styl'
+
+// 隐藏滚动条
+html
+  -ms-overflow-style none
+  overflow -moz-scrollbars-none
+::-webkit-scrollbar
+  display none
