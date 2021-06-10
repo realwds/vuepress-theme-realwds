@@ -5,6 +5,7 @@
   "main": "index.js",
   "keywords": [
     "theme",
+    "plugin",
     "vuepress",
     "vuepress-theme",
     "realwds",
@@ -18,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/realwds/vuepress-theme-realwds/issues"
   },
-  "homepage": "https://realwds.github.io",
+  "homepage": "https://realwds.github.io/vuepress-realwds-demo",
   "license": "MIT",
   "dependencies": {
     "@vuepress/plugin-active-header-links": "1.8.0",

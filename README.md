@@ -22,6 +22,10 @@ module.exports = {
 }
 ```
 
+## Demo
+
+[https://realwds.github.io/vuepress-realwds-demo](https://realwds.github.io/vuepress-realwds-demo)
+
 ## LICENSE
 
 vuepress-theme-realwds © Alejandro, Released under the MIT License.
